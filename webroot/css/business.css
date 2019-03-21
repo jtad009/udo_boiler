@@ -1,0 +1,196 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+ @font-face{
+  font-family:'Comfortaa';;
+  src:url(fonts/Comfortaa-Bold.ttf);
+  src:url(fonts/Comfortaa-Light.ttf);
+  src:url(fonts/Comfortaa-Regular.ttf);
+
+ }
+ .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #636 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(102, 51, 102)
+}
+ .searching_alert{
+
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: bold;
+ }
+ .page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #636;
+    border-color: #636;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #636;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.nav-border{
+  border-bottom:2px solid #636 !important;
+}
+.hasError{
+  border-color: #a94442 !important;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+}
+.btn-primary,.nav-link.active{
+  border-left: 4px solid #636;
+  color:#663366 !important;
+  background-color: #fff !important;
+  padding-top: 2px;padding-bottom: 2px;
+}.btn-primary,.nav-link a:hover{
+
+   color:#663366 !important;
+   background-color: #fff !important;
+
+ }
+li.heading h6{
+  font-size: 13px !important;
+  color:#767676 !important;
+  cursor: default;
+
+}
+.btn-primary:hover{
+  background-color: #636;
+  border-color: #636;
+}
+.text-primary,a.nav-link,a{
+  color:#636;
+
+}
+a.nav-link{
+
+  padding-top: 2px;padding-bottom: 2px;
+}
+.info-boxx {
+  border-radius: 4px;
+  border-bottom: 1px solid #d5d5d5;
+  background: white;
+  color: #7a7a7a;
+  min-height: 90px;
+  margin: 5px 0px;
+}
+.info-boxx-lemon {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  float: left;
+  height: 89px;
+  width: 68px;
+  color: #fff !important;
+  text-align: center;
+  font-size: 25px !important;
+  line-height: 90px;
+  background: #379392;
+}
+
+.info-boxx-text {
+  padding: 12px 10px 5px;
+  margin-left: 70px;
+}
+.info-boxx-text-top {
+  display: block;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}
+.info-boxx-text-btm {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+hr{
+  /*color: #fff;*/
+  /*background-color: #379392 !important;*/
+  /*border-color: #636 !important;*/
+}
+body {
+ font-family: 'Nunito', sans-serif !important;
+  padding-top: 54px;
+ background: #ededed !important;
+}
+.slogan{
+  font-family: 'Comfortaa', cursive !important;
+}
+.logo-name{
+  font-family: 'Comfortaa', cursive !important;
+  font-size:30px;
+  color:#636;
+  font-weight: bold;
+  text-shadow: 1px 1px #ccc;;
+
+}
+.breadcrumb{
+	background-color:#fff; 
+}
+#footer{
+    padding:10px;
+	/*position: fixed;*/
+    left: 0;
+    /*bottom: 0;*/
+    width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        margin-left: -250px;
+        display:none
+    }
+    .sidebar.active {
+        margin-left: 0;
+    }
+}
+.footer {
+    
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.text-purple{
+  color:#636 !important;
+}
+a.text-purple:hover{
+  text-decoration: underline;
+}
+.btn-purple{
+  background: #636 !important;
+  color:white !important;
+}
+.btn-purple:hover{
+  background: #742b74  !important;
+  color:white !important;
+}
+.btn-outline-purple{
+  border:1px solid #636;
+}
+.btn-outline-purple:hover{
+  background: #636 !important;
+  color:white !important;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
